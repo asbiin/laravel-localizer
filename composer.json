@@ -1,5 +1,5 @@
 {
-    "name": "codezero/laravel-localizer",
+    "name": "asbiin/laravel-localizer",
     "description": "Automatically detect and set an app locale that matches your visitor's preference.",
     "keywords": [
         "php",
@@ -18,6 +18,10 @@
         {
             "name": "Ivan Vermeyen",
             "email": "ivan@codezero.be"
+        },
+        {
+            "name": "Alexis Saettler",
+            "email": "alexis@saettler.org"
         }
     ],
     "require": {

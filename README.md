@@ -32,7 +32,7 @@ Check our [upgrade guide](UPGRADE.md) for instructions.
 Install this package with Composer:
 
 ```bash
-composer require codezero/laravel-localizer
+composer require asbiin/laravel-localizer
 ```
 
 Laravel will automatically register the ServiceProvider.
