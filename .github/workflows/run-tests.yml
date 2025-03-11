@@ -60,7 +60,7 @@ jobs:
       - name: Update dependencies with Laravel ${{ matrix.laravel }}
         run: |
           export COMPOSER_ROOT_VERSION=dev-main
-          composer require "illuminate/support:^${{ matrix.laravel }}" --no-update
+          composer require "illuminate/support:${{ matrix.laravel }}" --no-update
           composer update --no-interaction --no-progress --prefer-dist
 
       - name: Setup problem matchers for PHPUnit
